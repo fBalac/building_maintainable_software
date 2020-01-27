@@ -5,8 +5,3 @@ languages:
   test:
     include:
       - .*/test/.*\.cs
-- name: java
-  production:   
-  test:
-  include:
-    - .*/test/.*\.java
