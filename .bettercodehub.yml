@@ -1,0 +1,24 @@
+component_depth: 1
+languages:
+- name: csharp
+ production:
+    exclude:
+      - .*/integrationtests/.*\.java
+      - .*TestFile\.java
+      - /TestComponent/.*\.java
+  test:
+    include:
+      - .*/integrationtests/.*\.java
+      - .*TestFile\.java
+      - /TestComponent/.*\.java
+- name: java
+ production:
+    exclude:
+      - .*/integrationtests/.*\.java
+      - .*TestFile\.java
+      - /TestComponent/.*\.java
+  test:
+    include:
+      - .*/integrationtests/.*\.java
+      - .*TestFile\.java
+      - /TestComponent/.*\.java
